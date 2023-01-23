@@ -1,0 +1,826 @@
+<div class="container-scroller">
+    <app-header></app-header>
+    <div class="container-fluid page-body-wrapper">
+     <app-sidebar></app-sidebar> 
+     <div class="main-panel">        
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-md-6 d-flex align-items-stretch grid-margin">
+              <div class="row flex-grow">
+                <div class="col-12 grid-margin">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Default form</h4>
+                      <p class="card-description">
+                        Basic form layout
+                      </p>
+                      <form class="forms-sample">
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-success mr-2">Submit</button>
+                        <button class="btn btn-light">Cancel</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Horizontal Form</h4>
+                      <p class="card-description">
+                        Horizontal form layout
+                      </p>
+                      <form class="forms-sample">
+                        <div class="form-group row">
+                          <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Email</label>
+                          <div class="col-sm-9">
+                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="exampleInputPassword2" class="col-sm-3 col-form-label">Password</label>
+                          <div class="col-sm-9">
+                            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-success mr-2">Submit</button>
+                        <button class="btn btn-light">Cancel</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Basic form</h4>
+                  <p class="card-description">
+                    Basic form elements
+                  </p>
+                  <form class="forms-sample">
+                    <div class="form-group">
+                      <label for="exampleInputName1">Name</label>
+                      <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail3">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword4">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword4" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <label>File upload</label>
+                      <input type="file" name="img[]" class="file-upload-default">
+                      <div class="input-group col-xs-12">
+                        <input type="text" class="form-control file-upload-info" disabled="" placeholder="Upload Image">
+                        <div class="input-group-append">
+                          <button class="file-upload-browse btn btn-info" type="button">Upload</button>                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputCity1">City</label>
+                      <input type="text" class="form-control" id="exampleInputCity1" placeholder="Location">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleTextarea1">Textarea</label>
+                      <textarea class="form-control" id="exampleTextarea1" rows="2"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success mr-2">Submit</button>
+                    <button class="btn btn-light">Cancel</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch">
+              <div class="row flex-grow">
+                <div class="col-md-12 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Select 2</h4>
+                      <div class="form-group">
+                        <label>Single select box using select 2</label>
+                        <select class="js-example-basic-single select2-hidden-accessible" style="width:100%" data-select2-id="1" tabindex="-1" aria-hidden="true">
+                          <option value="AL" data-select2-id="3">Alabama</option>
+                          <option value="WY">Wyoming</option>
+                          <option value="AM">America</option>
+                          <option value="CA">Canada</option>
+                          <option value="RU">Russia</option>
+                        </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="2" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-y3wd-container"><span class="select2-selection__rendered" id="select2-y3wd-container" role="textbox" aria-readonly="true" title="Alabama">Alabama</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                      </div>
+                      <div class="form-group">
+                        <label>Multiple select using select 2</label>
+                        <select class="js-example-basic-multiple select2-hidden-accessible" multiple="" style="width:100%" data-select2-id="4" tabindex="-1" aria-hidden="true">
+                          <option value="AL">Alabama</option>
+                          <option value="WY">Wyoming</option>
+                          <option value="AM">America</option>
+                          <option value="CA">Canada</option>
+                          <option value="RU">Russia</option>
+                        </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="5" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" placeholder="" style="width: 0.75em;"></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Typeahead</h4>
+                      <p class="card-description">
+                        A simple suggestion engine
+                      </p>
+                      <div class="form-group row">
+                        <div class="col">
+                          <label>Basic</label>
+                          <div id="the-basics">
+                            <span class="twitter-typeahead" style="position: relative; display: inline-block;"><input class="typeahead tt-hint" type="text" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box padding-box rgb(43, 46, 76);"><input class="typeahead tt-input" type="text" placeholder="States of USA" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Roboto, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-states"></div></div></span>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <label>Bloodhound</label>
+                          <div id="bloodhound">
+                            <span class="twitter-typeahead" style="position: relative; display: inline-block;"><input class="typeahead tt-hint" type="text" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box padding-box rgb(43, 46, 76);"><input class="typeahead tt-input" type="text" placeholder="States of USA" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Roboto, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-states"></div></div></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Coloured select box</h4>
+                  <p class="card-description">
+                    Basic bootstrap select in theme colors
+                  </p>
+                  <div class="form-group">
+                    <label for="exampleSelectPrimary">Primary</label>
+                    <select class="form-control border-primary" id="exampleSelectPrimary">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleSelectInfo">Info</label>
+                    <select class="form-control border-info" id="exampleSelectInfo">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleSelectSuccess">Success</label>
+                    <select class="form-control border-success" id="exampleSelectSuccess">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleSelectDanger">Danger</label>
+                    <select class="form-control border-danger" id="exampleSelectDanger">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleSelectWarning">Warning</label>
+                    <select class="form-control border-warning" id="exampleSelectWarning">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 d-flex align-items-stretch">
+              <div class="row flex-grow">
+                <div class="col-12 grid-margin">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Basic input groups</h4>
+                      <p class="card-description">
+                        Basic bootstrap input groups
+                      </p>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                          </div>                          
+                          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">$</span>
+                          </div>
+                          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                          <div class="input-group-append">
+                            <span class="input-group-text">.00</span>                            
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">$</span>
+                            <span class="input-group-text">0.00</span>                            
+                          </div>
+                          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Colored input groups</h4>
+                      <p class="card-description">
+                        Input groups with colors
+                      </p>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text bg-info bg-info" id="colored-addon1">
+                              <i class="mdi mdi-shield-outline text-white"></i>
+                            </span>
+                          </div>
+                          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="colored-addon1">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text bg-primary border-primary" id="colored-addon2">
+                              <i class="mdi mdi-menu text-white"></i>
+                            </span>
+                          </div>
+                          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="colored-addon2">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="colored-addon3">
+                          <div class="input-group-append">
+                            <span class="input-group-text bg-primary border-primary" id="colored-addon3">
+                              <i class="mdi mdi-menu text-white"></i>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text bg-primary">$</span>                            
+                          </div>
+                          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                          <div class="input-group-append">
+                            <span class="input-group-text bg-primary border-primary">.00</span>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Input size</h4>
+                  <p class="card-description">
+                    This is the default bootstrap form layout
+                  </p>
+                  <div class="form-group">
+                    <label>Large input</label>
+                    <input type="text" class="form-control form-control-lg" placeholder="Username" aria-label="Username">
+                  </div>
+                  <div class="form-group">
+                    <label>Default input</label>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                  </div>
+                  <div class="form-group">
+                    <label>Small input</label>
+                    <input type="text" class="form-control form-control-sm" placeholder="Username" aria-label="Username">
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Selectize</h4>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">Large select</label>
+                    <select class="form-control form-control-lg" id="exampleFormControlSelect1">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect2">Default select</label>
+                    <select class="form-control" id="exampleFormControlSelect2">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect3">Small select</label>
+                    <select class="form-control form-control-sm" id="exampleFormControlSelect3">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Checkbox Controls</h4>
+                  <p class="card-description">Checkbox and radio controls</p>
+                  <form class="forms-sample">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Default
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input" checked="">
+                              Checked
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input" disabled="">
+                              Disabled
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input" disabled="" checked="">
+                              Disabled checked
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <div class="form-radio">
+                            <label class="form-check-label">
+                              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="" checked="">
+                              Option one
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                          <div class="form-radio">
+                            <label class="form-check-label">
+                              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                              Option two
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="form-radio disabled">
+                            <label class="form-check-label">
+                              <input type="radio" class="form-check-input" name="optionsRadios2" id="optionsRadios3" value="option3" disabled="">
+                              Option three is disabled
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                          <div class="form-radio disabled">
+                            <label class="form-check-label">
+                              <input type="radio" class="form-check-input" name="optionsRadio2" id="optionsRadios4" value="option4" disabled="" checked="">
+                              Option four is selected and disabled
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Checkbox Flat Controls</h4>
+                  <p class="card-description">Checkbox and radio controls with flat design</p>
+                  <form class="forms-sample">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <div class="form-check form-check-flat">
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Default
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                          <div class="form-check form-check-flat">
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input" checked="">
+                              Checked
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                          <div class="form-check form-check-flat">
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input" disabled="">
+                              Disabled
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                          <div class="form-check form-check-flat">
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input" disabled="" checked="">
+                              Disabled checked
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <div class="form-radio form-radio-flat">
+                            <label class="form-check-label">
+                              <input type="radio" class="form-check-input" name="flatRadios1" id="flatRadios1" value="" checked="">
+                              Option one
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                          <div class="form-radio form-radio-flat">
+                            <label class="form-check-label">
+                              <input type="radio" class="form-check-input" name="flatRadios2" id="flatRadios2" value="option2">
+                              Option two
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="form-radio form-radio-flat disabled">
+                            <label class="form-check-label">
+                              <input type="radio" class="form-check-input" name="flatRadios3" id="flatRadios3" value="option3" disabled="">
+                              Option three is disabled
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                          <div class="form-radio form-radio-flat disabled">
+                            <label class="form-check-label">
+                              <input type="radio" class="form-check-input" name="flatRadios4" id="flatRadios4" value="option4" disabled="" checked="">
+                              Option four is selected and disabled
+                            <i class="input-helper"></i><i class="input-helper"></i></label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 grid-margin">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Horizontal Two column</h4>
+                  <form class="form-sample">
+                    <p class="card-description">
+                      Personal info
+                    </p>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">First Name</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Last Name</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Gender</label>
+                          <div class="col-sm-9">
+                            <select class="form-control">
+                              <option>Male</option>
+                              <option>Female</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Date of Birth</label>
+                          <div class="col-sm-9">
+                            <input class="form-control" placeholder="dd/mm/yyyy">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Category</label>
+                          <div class="col-sm-9">
+                            <select class="form-control">
+                              <option>Category1</option>
+                              <option>Category2</option>
+                              <option>Category3</option>
+                              <option>Category4</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Membership</label>
+                          <div class="col-sm-4">
+                            <div class="form-radio">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios1" value="" checked="">
+                                Free
+                              <i class="input-helper"></i><i class="input-helper"></i></label>
+                            </div>
+                          </div>
+                          <div class="col-sm-5">
+                            <div class="form-radio">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios2" value="option2">
+                                Professional
+                              <i class="input-helper"></i><i class="input-helper"></i></label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="card-description">
+                      Address
+                    </p>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Address 1</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">State</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Address 2</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Postcode</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">City</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Country</label>
+                          <div class="col-sm-9">
+                            <select class="form-control">
+                              <option>America</option>
+                              <option>Italy</option>
+                              <option>Russia</option>
+                              <option>Britain</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body pb-0">
+                  <h4 class="card-title mb-0">Icheck</h4>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 grid-margin grid-margin-lg-0">
+                    <div class="card-body">
+                      <p class="card-description">Minimal skin</p>
+                      <div class="icheck">
+                        <div class="icheckbox_minimal-blue" style="position: relative;"><input tabindex="5" type="checkbox" id="minimal-checkbox-1" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="minimal-checkbox-1">Checkbox 1</label>
+                      </div>
+                      <div class="icheck">
+                        <div class="icheckbox_minimal-blue checked" style="position: relative;"><input tabindex="6" type="checkbox" id="minimal-checkbox-2" checked="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="minimal-checkbox-2">Checkbox 2</label>
+                      </div>
+                      <div class="icheck">
+                        <div class="icheckbox_minimal-blue disabled" style="position: relative;"><input type="checkbox" id="minimal-checkbox-disabled" disabled="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="minimal-checkbox-disabled">Disabled</label>
+                      </div>
+                      <div class="icheck">
+                        <div class="icheckbox_minimal-blue checked disabled" style="position: relative;"><input type="checkbox" id="minimal-checkbox-disabled-checked" checked="" disabled="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="minimal-checkbox-disabled-checked">Disabled &amp; checked</label>
+                      </div>
+                      <div class="icheck">
+                        <div class="iradio_minimal" style="position: relative;"><input tabindex="7" type="radio" id="minimal-radio-1" name="minimal-radio" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="minimal-radio-1">Radio button 1</label>
+                      </div>
+                      <div class="icheck">
+                        <div class="iradio_minimal" style="position: relative;"><input tabindex="8" type="radio" id="minimal-radio-2" name="minimal-radio" checked="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="minimal-radio-2">Radio button 2</label>
+                      </div>
+                      <div class="icheck">
+                        <div class="iradio_minimal disabled" style="position: relative;"><input type="radio" id="minimal-radio-disabled" disabled="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="minimal-radio-disabled">Disabled</label>
+                      </div>
+                      <div class="icheck">
+                        <div class="iradio_minimal checked disabled" style="position: relative;"><input type="radio" id="minimal-radio-disabled-checked" checked="" disabled="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="minimal-radio-disabled-checked">Disabled &amp; checked</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 grid-margin grid-margin-lg-0">
+                    <div class="card-body">
+                      <p class="card-description">Square skin</p>
+                      <div class="icheck-square">
+                        <div class="icheckbox_square-blue" style="position: relative;"><input tabindex="5" type="checkbox" id="square-checkbox-1" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="square-checkbox-1">Checkbox 1</label>
+                      </div>
+                      <div class="icheck-square">
+                        <div class="icheckbox_square-blue checked" style="position: relative;"><input tabindex="6" type="checkbox" id="square-checkbox-2" checked="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="square-checkbox-2">Checkbox 2</label>
+                      </div>
+                      <div class="icheck-square">
+                        <div class="icheckbox_square-blue disabled" style="position: relative;"><input type="checkbox" id="square-checkbox-disabled" disabled="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="square-checkbox-disabled">Disabled</label>
+                      </div>
+                      <div class="icheck-square">
+                        <div class="icheckbox_square-blue checked disabled" style="position: relative;"><input type="checkbox" id="square-checkbox-disabled-checked" checked="" disabled="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="square-checkbox-disabled-checked">Disabled &amp; checked</label>
+                      </div>
+                      <div class="icheck-square">
+                        <div class="iradio_square" style="position: relative;"><input tabindex="7" type="radio" id="square-radio-1" name="minimal-radio" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="square-radio-1">Radio button 1</label>
+                      </div>
+                      <div class="icheck-square">
+                        <div class="iradio_square" style="position: relative;"><input tabindex="8" type="radio" id="square-radio-2" name="minimal-radio" checked="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="square-radio-2">Radio button 2</label>
+                      </div>
+                      <div class="icheck-square">
+                        <div class="iradio_square disabled" style="position: relative;"><input type="radio" id="square-radio-disabled" disabled="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="square-radio-disabled">Disabled</label>
+                      </div>
+                      <div class="icheck-square">
+                        <div class="iradio_square checked disabled" style="position: relative;"><input type="radio" id="square-radio-disabled-checked" checked="" disabled="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="square-radio-disabled-checked">Disabled &amp; checked</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 grid-margin grid-margin-lg-0">
+                    <div class="card-body">
+                      <p class="card-description">Flat skin</p>
+                      <div class="icheck-flat">
+                        <div class="icheckbox_flat-blue" style="position: relative;"><input tabindex="5" type="checkbox" id="flat-checkbox-1" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="flat-checkbox-1">Checkbox 1</label>
+                      </div>
+                      <div class="icheck-flat">
+                        <div class="icheckbox_flat-blue checked" style="position: relative;"><input tabindex="6" type="checkbox" id="flat-checkbox-2" checked="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="flat-checkbox-2">Checkbox 2</label>
+                      </div>
+                      <div class="icheck-flat">
+                        <div class="icheckbox_flat-blue disabled" style="position: relative;"><input type="checkbox" id="flat-checkbox-disabled" disabled="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="flat-checkbox-disabled">Disabled</label>
+                      </div>
+                      <div class="icheck-flat">
+                        <div class="icheckbox_flat-blue checked disabled" style="position: relative;"><input type="checkbox" id="flat-checkbox-disabled-checked" checked="" disabled="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="flat-checkbox-disabled-checked">Disabled &amp; checked</label>
+                      </div>
+                      <div class="icheck-flat">
+                        <div class="iradio_flat" style="position: relative;"><input tabindex="7" type="radio" id="flat-radio-1" name="minimal-radio" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="flat-radio-1">Radio button 1</label>
+                      </div>
+                      <div class="icheck-flat">
+                        <div class="iradio_flat" style="position: relative;"><input tabindex="8" type="radio" id="flat-radio-2" name="minimal-radio" checked="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="flat-radio-2">Radio button 2</label>
+                      </div>
+                      <div class="icheck-flat">
+                        <div class="iradio_flat disabled" style="position: relative;"><input type="radio" id="flat-radio-disabled" disabled="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="flat-radio-disabled">Disabled</label>
+                      </div>
+                      <div class="icheck-flat">
+                        <div class="iradio_flat checked disabled" style="position: relative;"><input type="radio" id="flat-radio-disabled-checked" checked="" disabled="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        <label for="flat-radio-disabled-checked">Disabled &amp; checked</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="card-body">
+                      <p class="card-description">Line skin</p>
+                      <div class="icheck-line">
+                        <div class="icheckbox_line-blue"><input tabindex="5" type="checkbox" id="line-checkbox-1" style="position: absolute; opacity: 0;"><div class="icheck_line-icon"></div>Checkbox 1<ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        
+                      </div>
+                      <div class="icheck-line">
+                        <div class="icheckbox_line-blue checked"><input tabindex="6" type="checkbox" id="line-checkbox-2" checked="" style="position: absolute; opacity: 0;"><div class="icheck_line-icon"></div>Checkbox 2<ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        
+                      </div>
+                      <div class="icheck-line">
+                        <div class="icheckbox_line-blue disabled"><input type="checkbox" id="line-checkbox-disabled" disabled="" style="position: absolute; opacity: 0;"><div class="icheck_line-icon"></div>Disabled<ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        
+                      </div>
+                      <div class="icheck-line">
+                        <div class="icheckbox_line-blue checked disabled"><input type="checkbox" id="line-checkbox-disabled-checked" checked="" disabled="" style="position: absolute; opacity: 0;"><div class="icheck_line-icon"></div>Disabled &amp; checked<ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        
+                      </div>
+                      <div class="icheck-line">
+                        <div class="iradio_line"><input tabindex="7" type="radio" id="line-radio-1" name="minimal-radio" style="position: absolute; opacity: 0;"><div class="icheck_line-icon"></div>Radio button 1<ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        
+                      </div>
+                      <div class="icheck-line">
+                        <div class="iradio_line checked"><input tabindex="8" type="radio" id="line-radio-2" name="minimal-radio" checked="" style="position: absolute; opacity: 0;"><div class="icheck_line-icon"></div>Radio button 2<ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        
+                      </div>
+                      <div class="icheck-line disabled">
+                        <div class="iradio_line disabled"><input type="radio" id="line-radio-disabled" disabled="" style="position: absolute; opacity: 0;"><div class="icheck_line-icon"></div>Disabled<ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        
+                      </div>
+                      <div class="icheck-line disabled">
+                        <div class="iradio_line checked disabled"><input type="radio" id="line-radio-disabled-checked" checked="" disabled="" style="position: absolute; opacity: 0;"><div class="icheck_line-icon"></div>Disabled &amp; checked<ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:../../partials/_footer.html -->
+        <footer class="footer">
+            <div class="container-fluid clearfix">
+              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2020 <a href="#">Bootstrapdash</a>. All rights reserved.</span>
+              <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted &amp; made with <i class="mdi mdi-heart text-danger"></i></span>
+            </div>
+          </footer>
+        <!-- partial -->
+      </div>  
+    </div>
+</div>
